@@ -38,3 +38,4 @@ python woff_switch_final.py
 - Keep backups.
 - Do not edit ZIP archives directly.
 - Compendium and Champion Medal editing are experimental.
+- I am not responsible for any corrupt saves or data that come from using this. There is a rollback feature in the editor that should work as intended.
