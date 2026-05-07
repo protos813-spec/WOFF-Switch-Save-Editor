@@ -43,3 +43,23 @@ woff_switch_final_update.py
 ## Screenshot
 
 ![Editor Screenshot](screenshots/editor.png)
+
+## Pre-release EXE Build
+
+A pre-release standalone `.exe` build may be provided in the GitHub Releases section.
+
+### Notes
+
+- Windows may flag unsigned builds with SmartScreen warnings.
+- The `.exe` is portable and does not require Python.
+- Always keep JKSV backups before editing saves.
+- The executable build is considered experimental/pre-release.
+- If issues occur, use the Python version instead.
+
+### Running the EXE
+
+1. Download the latest pre-release from Releases.
+2. Extract the archive if needed.
+3. Run the `.exe`.
+4. Open your decrypted `gamedata` file.
+5. Save edited data and restore with JKSV.
