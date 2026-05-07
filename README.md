@@ -26,7 +26,7 @@ A Python save editor for decrypted Nintendo Switch saves from **World of Final F
 3. Run:
 
 ```bash
-python woff_switch_final.py
+woff_switch_final_update.py
 ```
 
 4. Edit your save.
