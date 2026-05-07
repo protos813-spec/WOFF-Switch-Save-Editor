@@ -63,3 +63,7 @@ A pre-release standalone `.exe` build may be provided in the GitHub Releases sec
 3. Run the `.exe`.
 4. Open your decrypted `gamedata` file.
 5. Save edited data and restore with JKSV.
+
+## Pre-release EXE Build
+
+![Windows Build Screenshot](screenshots/winbuild.png)
