@@ -1,6 +1,5 @@
 # WOFF-Switch-Save-Editor
 A save editor for World of Final Fantasy Maxima on Switch
-World of Final Fantasy Maxima Switch Save Editor
 
 A Python-based save editor for decrypted Nintendo Switch saves from World of Final Fantasy Maxima.
 
@@ -54,12 +53,15 @@ Important:
 Some late-game Maxima entries appear to use hidden/internal rows.
 A few special Mirages may not align perfectly yet.
 Compendium editing should be considered experimental.
+
 Requirements
 Python 3.10+
 Decrypted Nintendo Switch save data
+
 Save dumped using:
 JKSV
 Checkpoint
+
 Usage
 1. Back Up Your Save
 
@@ -69,8 +71,8 @@ Example:
 
 JKSV/WOFF/BackupName/
     gamedata
-    progress.dat
     meta
+    
 2. Edit ONLY gamedata
 
 Do NOT edit ZIP archives directly.
@@ -83,6 +85,7 @@ inside the editor.
 
 3. Run the Editor
 python woff_switch_final_named_compendium.py
+
 4. Save Changes
 
 Save the modified file as:
@@ -95,16 +98,13 @@ Then replace the original gamedata inside your JKSV backup folder.
 
 Use JKSV or Checkpoint to restore the edited save back to the Switch.
 
-Warnings
+Warnings!
 Keep Backups
-
-Some save regions are still being researched.
 
 Always keep:
 
 an untouched original backup
 a second working backup
-
 before experimenting.
 
 Atmosphere / Edizon Cheats
@@ -118,7 +118,6 @@ story/event flag cheats
 teleport cheats
 unsupported pointer cheats
 
-Inventory editing through the save editor is significantly safer than live memory editing.
 
 Current Research Notes
 
@@ -150,4 +149,4 @@ Special thanks to:
 
 the World of Final Fantasy community
 Mirage Manual documentation contributors
-save structure researchers
+
